@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+	span#burguer{
+		display: none;
+	}
+
+	header menu{
+		display: block;
+	}
+
+	menu ul{
+		background-color: #9c1313;
+		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+	}
+
+	menu li{
+		display: inline-block;
+	}
+
+	menu a{
+		border-top:none;
+	}
+
+
+	main{
+		max-width: 900px;
+	}
+
+	footer section.links{
+		width: 100vw;
+	}
+}
+
+
+
+
+
